@@ -1,0 +1,20 @@
+.Content {
+  display: flex;
+  /*flex-direction: column;*/
+  flex-grow: 1;
+  /*background-color: #ececec;*/
+  flex-wrap: wrap;
+  padding: 25px;
+  font-size: 14px;
+  font-weight: 400;
+}
+/*
+.Content > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+}
+*/

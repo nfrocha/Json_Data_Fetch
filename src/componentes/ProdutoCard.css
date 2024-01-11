@@ -1,0 +1,79 @@
+.ProdutoCard {
+  width: 150px;
+  height: 174px;
+  margin: 1.5rem;
+  padding: 10px;
+  position: relative;
+  border: solid 1px #fbfbfb;
+  border-radius: 12px;
+  overflow: hidden;
+  /*border: none;*/
+
+  /*transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);*/
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+/*
+.ProdutoCard div:nth-of-type(1) {
+  position: absolute;
+  padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  color: #f9d3b4;
+}
+
+.ProdutoCard:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.15, 1.15);
+  cursor: pointer;
+}
+
+.ProdutoCard div:nth-of-type(2) {
+  width: 100%;
+  height: 100%;
+}
+
+.ProdutoCard div:nth-of-type(2) img {
+  height: 100%;
+  width: 100%;
+}
+
+.ProdutoCard div:nth-of-type(3) {
+  z-index: 2;
+  background-color: #006c90dd;
+
+  padding: 6px 24px 0px 24px;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.ProdutoCard div:nth-of-type(3) span {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #f0f0f0;
+}
+
+.PostCard div:nth-of-type(3) h3 {
+  margin-top: 5px;
+  color: #f9d3b4;
+  font-size: 13px;
+}
+
+.ProdutoCard:hover div:nth-of-type(2) {
+  height: 100%;
+  opacity: 0.6;
+}
+
+.ProdutoCard:hover div:nth-of-type(3) {
+  background-color: transparent;
+}
+
+.ProdutoCard:hover div:nth-of-type(1) {
+  opacity: 1;
+}
+*/
