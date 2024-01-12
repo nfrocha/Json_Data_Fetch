@@ -2,18 +2,23 @@ import { useEffect, useState } from "react";
 import "./Produtos.css";
 import ListaProdutos from "../ListaProdutos";
 
-// Array de objetos de Posts - Ficheiro
-//import posts from "../../data/Posts.js";
-
 const Produtos = () => {
-  // Array de Objetos
-  const [produtos, setProdutos] = useState<
-    { id: number; name: string; image_link: string }[]
-  >([]);
+  type produto = {
+    id: number;
+    name: string;
+    image_link: string;
+  };
 
-  // Array de strings
-  //const [names, setNames] = useState<string[]>([]);
-  //const [names, setNames] = useState(['']);
+  // Array de strings - ok
+  // const [names, setNames] = useState<string[]>([]);
+  // const [names, setNames] = useState(['']);
+
+  // Array de Objetos destruturado - ok
+  //const [produtos, setProdutos] = useState<
+  //{ id: number; name: string; image_link: string }[]>([]);
+
+  // Array de Objetos com type - ok
+  const [produtos, setProdutos] = useState<produto[]>([]);
 
   // Array de objetos de Produtos de Maquilhagem - Api(url)
   async function getProdutos() {
@@ -38,7 +43,6 @@ const Produtos = () => {
   return (
     <>
       <div className="Produtos">
-        {/*<ListaProdutos produtos={produtos} />*/}
         <ListaProdutos produtos={produtos} />
       </div>
     </>

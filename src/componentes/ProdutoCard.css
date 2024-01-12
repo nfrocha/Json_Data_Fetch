@@ -1,17 +1,36 @@
 .ProdutoCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: start;
   width: 150px;
-  height: 174px;
   margin: 1.5rem;
-  padding: 10px;
-  position: relative;
-  border: solid 1px #fbfbfb;
-  border-radius: 12px;
-  overflow: hidden;
-  /*border: none;*/
 
-  /*transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);*/
+  position: relative;
+}
+
+.Foto {
+  border: solid 1px #fbfbfb;
+  position: relative;
+  max-width: 100%;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
   box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
 }
+
+.Dados {
+  position: relative;
+  margin-top: 5px;
+  color: #333;
+  text-align: center;
+  font-size: 13px;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
 /*
 .ProdutoCard div:nth-of-type(1) {
   position: absolute;

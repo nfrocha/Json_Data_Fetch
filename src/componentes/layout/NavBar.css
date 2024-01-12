@@ -4,7 +4,6 @@
   justify-content: center;
   background: linear-gradient(to top, #00b4db, #006c90);
   padding: 0.3em;
-  /*overflow: hidden;*/
 }
 
 .NavBar nav {
@@ -14,7 +13,7 @@
 .NavBar ul {
   display: flex;
   flex-direction: row;
-
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }

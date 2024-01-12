@@ -1,16 +1,17 @@
 import "./ListaPosts.css";
 import PostCard from "./PostCard";
 
-interface PostsProps {
+type PostsProps = {
   posts: IPost[];
-}
-interface IPost {
+};
+
+type IPost = {
   id: number;
   nome: string;
   data: string;
   descricao: string;
   img: string;
-}
+};
 
 /*
 const arrAlunos = [
@@ -40,7 +41,6 @@ const ListaPosts = (props: PostsProps) => {
   const { posts } = props;
 
   return (
-    /*<div>*/
     <>
       <ul className="ulPosts">
         {posts.map((post) => (
@@ -56,7 +56,6 @@ const ListaPosts = (props: PostsProps) => {
       </ul>
       {/*<ul>{DadosAlunos}</ul>;*/}
     </>
-    /*</div>*/
   );
 };
 
