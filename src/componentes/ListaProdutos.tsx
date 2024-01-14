@@ -40,6 +40,7 @@ const ListaProdutos = (props: ProdutosProps) => {
   return (
     /*<div>*/
     <>
+      <h3>Nº Registos: {produtos.length}</h3>
       <ul className="ulProdutos">
         {produtos.map((produto) => (
           <ProdutoCard
